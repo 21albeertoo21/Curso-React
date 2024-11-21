@@ -1,19 +1,14 @@
-export function App() {
-    return (
-        <article>
-            <header>
-                <img alt="foto random" src="https://unavatar.io/midudev"/>
-                <div>
-                    <strong>Miguel Ángel Duran</strong>
-                    <span>@midudev</span>
-                </div>
-            </header>
+import { StrictMode } from "react"
+import "./app.css"
+import { TwitterFollowCard } from "./TwitterFollowCard"
 
-            <aside>
-                <button>
-                    Seguir
-                </button>
-            </aside>
-        </article>
+export function App() {
+    return(
+        <>
+            <section className="App">
+                <TwitterFollowCard userName="midudev" name="Miguel Ángel"></TwitterFollowCard>
+                <TwitterFollowCard userName="pheralb" name="Pablo Gonzalez"></TwitterFollowCard>
+            </section>
+        </>
     )
 }
