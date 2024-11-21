@@ -1,0 +1,8 @@
+Diferencia entre componente y elemento
+    Un componente es una factoría de elementos, es una función que al ejecutarla 
+    te devuelve un elemento
+
+PROPS deben ser inmutable (props son los atributos de un elemento)
+Crea constantes para modificarlas
+
+Si se renderiza un componente padre tmb se renderiza los componentes hijos
