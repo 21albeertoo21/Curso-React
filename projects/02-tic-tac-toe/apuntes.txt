@@ -1,0 +1,4 @@
+Actualizaciones de estado son asíncronos
+
+si en un comando de npm install {algo} -E
+se añade como dependencia al proyecto
