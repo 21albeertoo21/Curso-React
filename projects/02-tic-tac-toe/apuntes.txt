@@ -2,3 +2,8 @@ Actualizaciones de estado son asíncronos
 
 si en un comando de npm install {algo} -E
 se añade como dependencia al proyecto
+
+Los useState s no pueden estar dentro de un if, while.. siempre dentro
+del cuerpo del componente
+
+Leer de localStorage es lento, síncrono y bloqueante
